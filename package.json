@@ -1,0 +1,16 @@
+{
+  "name": "plex-build-debian-sysvinit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Le Trong Nghia HUYNH <letrongnghia.huynh@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-wget": "^0.4.2",
+    "request": "^2.87.0"
+  }
+}
