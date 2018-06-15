@@ -8,7 +8,8 @@ Link of the thread: https://forums.plex.tv/discussion/51427/plex-media-server-fo
 ### Instructions to build
 ---
 
-##### With NodeJS
+#### With NodeJS
+---
 
 Prerequisites:
 
@@ -21,10 +22,12 @@ And then:
 2. Install needed libraries: **npm i**
 3. Run the script: **node index.js**
 
-##### With shellscript
+#### With shellscript
+---
 
 1. Go to the **shellscript** directory: **cd shellscript**
 2. Make the script executable: **chmod +x build-packages.sh**
 3. Run the script: **./build-packages.sh**
 
-At the end, you should get the .deb file in your working directory.
+
+**At the end, you should get the .deb file in your working directory.**
