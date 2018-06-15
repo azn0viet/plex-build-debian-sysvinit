@@ -9,7 +9,6 @@ Link of the thread: https://forums.plex.tv/discussion/51427/plex-media-server-fo
 ---
 
 #### With NodeJS
----
 
 Prerequisites:
 
@@ -23,7 +22,6 @@ And then:
 3. Run the script: **node index.js**
 
 #### With shellscript
----
 
 1. Go to the **shellscript** directory: **cd shellscript**
 2. Make the script executable: **chmod +x build-packages.sh**
