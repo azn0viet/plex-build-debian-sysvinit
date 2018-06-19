@@ -6,7 +6,6 @@ build_debian_package() {
 		return
 	fi
 
-	DEFAULT_VERSION_IN_CONTROL_FILE="1.9.5.4339-46276db8d"
 	JSON_STRING=$(curl -s "https://plex.tv/api/downloads/1.json")
 	BASE_DIR="$1_base"
 
