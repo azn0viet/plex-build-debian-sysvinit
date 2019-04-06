@@ -5,7 +5,7 @@ var exec = require('child_process').exec;
 var command;
 var TMP_DIR = "tmp/";
 var DEFAULT_VERSION_IN_CONTROL_FILE = "1.9.5.4339-46276db8d";
-var URL_PLEX_RELEASES_JSON = "https://plex.tv/api/downloads/1.json";
+var URL_PLEX_RELEASES_JSON = "https://plex.tv/pms/downloads/5.json";
 
 // Get the latest version
 console.log("=== 1. Get the latest release of the plexpass ===");
