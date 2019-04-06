@@ -21,12 +21,10 @@ build_debian_package() {
 		return
 	fi
 
-	# JSON_STRING=$(curl -s "https://plex.tv/api/downloads/1.json")
 	JSON_STRING=$(curl -s "https://plex.tv/pms/downloads/5.json")
 	BASE_DIR="$1_base"
 
 	# Get the download URL (first .deb url field)
-	# echo $JSON_STRING
 	URL=$(echo $JSON_STRING | grep -Po '"url":.*?[^\\]"' | sed 's/"url":"//g' | sed 's/"//g' | grep '\.deb$' | grep $1 | head -n1)
 	stop_script_and_display_error_if_empty "$URL" "Cannot find the URL"
 
